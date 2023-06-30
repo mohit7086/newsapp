@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+      },
+      "author": "John Timmer",
+      "title": "mRNA technology for vaccines and more: An Ars Frontiers recap",
+      "description": "The tech has lots of applications beyond the one we've already been injected with.",
+      "url": "https://arstechnica.com/science/2023/05/mrna-technology-for-vaccines-and-more-an-ars-frontiers-recap/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/Screenshot-2023-05-30-at-15-15-45-Ars-Frontiers-2023-Livestream-760x380.png",
+      "publishedAt": "2023-05-30T22:55:14+00:00",
+      "content": "Enlarge/ On May 22, John Timmer (left) moderated a panel featuring Karin Bok (center) and Nathaniel Wang (right) for the Ars Frontiers 2023 session titled, \"Beyond COVID: What Does mRNA Technology Me… [+5118 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Max Zahn",
+      "title": "AI leaders warn the technology poses 'risk of extinction' like pandemics and nuclear war",
+      "description": "Hundreds of business heads and public figures sounded a sobering alarm.",
+      "url": "https://abcnews.go.com/Technology/ai-leaders-warn-technology-poses-risk-extinction-pandemics/story?id=99690874",
+      "urlToImage": "https://s.abcnews.com/images/Business/open-ai-sam-altman-gty-moe-010-230530_1685456702322_hpMain_16x9_992.jpg",
+      "publishedAt": "2023-05-30T14:43:00Z",
+      "content": "Hundreds of business leaders and public figures sounded a sobering alarm on Tuesday over what they described as the threat of mass extinction posed by artificial intelligence.\r\nAmong the 350 signator… [+2773 chars]"
+    },
+    {
+      "source": {
+        "id": "newsweek",
+        "name": "Newsweek"
+      },
+      "author": "Mark Davis",
+      "title": "Newsweek",
+      "description": "Newsweek provides in-depth analysis, news and opinion about international issues, technology, business, culture and politics.",
+      "url": "https://www.newsweek.com/",
+      "urlToImage": "https://d.newsweek.com/en/full/2202468/special-presidential-envoy-climate-john-kerry.jpg",
+      "publishedAt": "2023-03-01T12:07:28.8517009Z",
+      "content": null
+    }
+  ]
+}
