@@ -2,7 +2,7 @@ import React, {useEffect,useState } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
 import PropTypes from "prop-types";
-
+import newspic from "./newpic.jpg"
 const News = ({ setProgress,...props }) => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -48,9 +48,9 @@ const News = ({ setProgress,...props }) => {
       });
     }
     return (
-      <div className="container my-2">
+      <div className="container my-2 " style = {{position: "relative",bottom: "18px",color:"#dcdef2"}}>
         <div className="heading" >
-  <h3 style={{ marginTop: "50px", display: "inline-block", marginRight: "5px" }}>
+  <h3 style={{ marginTop: "80px", display: "inline-block", marginRight: "5px" }}>
     Fresh Feed -
   </h3>
   <h4 style={{ display: "inline-block", marginLeft: "5px" }}>
@@ -64,11 +64,11 @@ const News = ({ setProgress,...props }) => {
           {articles.map((article, index) => (
             <div className="col-md-3" key={index}>
               <NewsItem
-                title={article.title?.slice(0, 30)}
-                description={article.description?.slice(0, 80)}
+                title={article.title?.slice(0, 60)}
+                description={article.description?.slice(0, 140)}
                 newsUrl={article.url}
-                imageUrl={article.urlToImage}
-                author={article.author}
+                imageUrl={article.urlToImage ? article.urlToImage : newspic}
+  author={article.author ? article.author : "Unknown"}
                 time={article.publishedAt}
               />
             </div>

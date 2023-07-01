@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import './App.css';
+
 import LoadingBar from 'react-top-loading-bar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Bg from "./newsBg.jpg"
+import Bg from "./Components/newpic.jpg"
 
 import Nav from "./Components/Nav";
 import News from "./Components/News";
@@ -14,14 +16,14 @@ const App = () => {
   };
 
   const pageSize = 100;
-  const apiKey = "2478234324c444efbf84e35a8e24a1b8";
+  const apiKey = "b345f5e60c164b96a3d0472e44433c46";
 
   return (
-    <div className="main" style={{backgroundImage:`url(${Bg})` , backgroundSize: 'cover',backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat'}}>
+    <div className="main" >
       <BrowserRouter>
         <Nav />
         <LoadingBar
-          color="#0d0a26"
+          color="red"
           progress={progress}
           height={2.3}
         />

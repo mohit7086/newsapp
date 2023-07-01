@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg fixed-top bg-danger border border-white rounded">
+      <nav className="navbar navbar-expand-lg fixed-top  border-rounded" style={{backgroundColor: "rgb(0 33 86 / 40%)",backdropFilter: "blur(5px)",
+  border: "0px solid rgba(255, 255, 255, 0.3)"}}>
         <div className="container-fluid">
           <Link className="navbar-brand text-white" to="/">
             Fresh Feed
