@@ -8,7 +8,7 @@ const Nav = () => {
   border: "0px solid rgba(255, 255, 255, 0.3)"}}>
         <div className="container-fluid">
           <Link className="navbar-brand text-white" to="/">
-            Fresh Feed
+            Fresh-Feed
           </Link>
           <button
             className="navbar-toggler"
