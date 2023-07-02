@@ -61,7 +61,7 @@ const News = ({ setProgress,...props }) => {
 
         {loading && <Spinner />}
         <div className="row my-10 ">
-        console.log(articles)
+        {console.log("Arrrrr",articles)}
           {articles!==undefined &&
           articles.map((article, index) => (
             <div className="col-md-3" key={index}>
