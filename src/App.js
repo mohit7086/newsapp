@@ -27,6 +27,7 @@ const App = () => {
           progress={progress}
           height={2.3}
         />
+        <News setProgress={handleSetProgress} apiKey={apiKey} key="1" pageSize={pageSize} country="in" category="general" />
 
         <Routes>
           <Route
