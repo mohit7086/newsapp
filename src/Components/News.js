@@ -61,7 +61,8 @@ const News = ({ setProgress,...props }) => {
 
         {loading && <Spinner />}
         <div className="row my-10 ">
-          {articles.map((article, index) => (
+          {articles!==undefined &&
+          articles.map((article, index) => (
             <div className="col-md-3" key={index}>
               <NewsItem
                 title={article.title?.slice(0, 60)}
